@@ -58,11 +58,9 @@ Initially my personal system was not having all the latest tools, technologies a
 
 
 
-!\[Visitors](https://visitor-badge.laobi.icu/badge?page\_id=KumaravelPalanisamyRaj.CodeTest\_FlexiSchools)
-
-!\[GitHub stars](https://img.shields.io/github/stars/KumaravelPalanisamyRaj/CodeTest\_FlexiSchools?style=social)
-
-!\[GitHub forks](https://img.shields.io/github/forks/KumaravelPalanisamyRaj/CodeTest\_FlexiSchools?style=social)
+![Visitors](https://visitor-badge.laobi.icu/badge?page_id=KumaravelPalanisamyRaj.CodeTest_FlexiSchools)
+![GitHub stars](https://img.shields.io/github/stars/KumaravelPalanisamyRaj/CodeTest_FlexiSchools?style=social)
+![GitHub forks](https://img.shields.io/github/forks/KumaravelPalanisamyRaj/CodeTest_FlexiSchools?style=social)
 
 
 
