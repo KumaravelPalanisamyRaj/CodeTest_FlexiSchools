@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="13.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="8.0.21" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="9.0.10" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.6.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SchoolCanteensDomain\SchoolCanteensDomain.csproj" />
+    <ProjectReference Include="..\SchoolCanteensPersistence\SchoolCanteensPersistence.csproj" />
+    <ProjectReference Include="..\SchoolCanteensInfrastructure\SchoolCanteensInfrastructure.csproj" />
+    <ProjectReference Include="..\SchoolCanteensApplication\SchoolCanteensApplication.csproj" />
+  </ItemGroup>
+
+</Project>

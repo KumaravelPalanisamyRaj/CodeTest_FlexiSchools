@@ -1,0 +1,393 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensApi\\SchoolCanteensApi.csproj": {}
+  },
+  "projects": {
+    "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensApi\\SchoolCanteensApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensApi\\SchoolCanteensApi.csproj",
+        "projectName": "SchoolCanteensApi",
+        "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensApi\\SchoolCanteensApi.csproj",
+        "packagesPath": "C:\\Users\\gowri\\.nuget\\packages\\",
+        "outputPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gowri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensApplication\\SchoolCanteensApplication.csproj": {
+                "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensApplication\\SchoolCanteensApplication.csproj"
+              },
+              "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensDomain\\SchoolCanteensDomain.csproj": {
+                "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensDomain\\SchoolCanteensDomain.csproj"
+              },
+              "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensInfrastructure\\SchoolCanteensInfrastructure.csproj": {
+                "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensInfrastructure\\SchoolCanteensInfrastructure.csproj"
+              },
+              "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensPersistence\\SchoolCanteensPersistence.csproj": {
+                "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensPersistence\\SchoolCanteensPersistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.21, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.6.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensApplication\\SchoolCanteensApplication.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensApplication\\SchoolCanteensApplication.csproj",
+        "projectName": "SchoolCanteensApplication",
+        "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensApplication\\SchoolCanteensApplication.csproj",
+        "packagesPath": "C:\\Users\\gowri\\.nuget\\packages\\",
+        "outputPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gowri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensDomain\\SchoolCanteensDomain.csproj": {
+                "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensDomain\\SchoolCanteensDomain.csproj"
+              },
+              "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensInfrastructure\\SchoolCanteensInfrastructure.csproj": {
+                "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensInfrastructure\\SchoolCanteensInfrastructure.csproj"
+              },
+              "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensPersistence\\SchoolCanteensPersistence.csproj": {
+                "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensPersistence\\SchoolCanteensPersistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MediatR": {
+              "target": "Package",
+              "version": "[13.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.Extensions.Logging.Abstractions": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensDomain\\SchoolCanteensDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensDomain\\SchoolCanteensDomain.csproj",
+        "projectName": "SchoolCanteensDomain",
+        "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensDomain\\SchoolCanteensDomain.csproj",
+        "packagesPath": "C:\\Users\\gowri\\.nuget\\packages\\",
+        "outputPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensDomain\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gowri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensInfrastructure\\SchoolCanteensInfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensInfrastructure\\SchoolCanteensInfrastructure.csproj",
+        "projectName": "SchoolCanteensInfrastructure",
+        "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensInfrastructure\\SchoolCanteensInfrastructure.csproj",
+        "packagesPath": "C:\\Users\\gowri\\.nuget\\packages\\",
+        "outputPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensInfrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gowri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensDomain\\SchoolCanteensDomain.csproj": {
+                "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensDomain\\SchoolCanteensDomain.csproj"
+              },
+              "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensPersistence\\SchoolCanteensPersistence.csproj": {
+                "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensPersistence\\SchoolCanteensPersistence.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensPersistence\\SchoolCanteensPersistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensPersistence\\SchoolCanteensPersistence.csproj",
+        "projectName": "SchoolCanteensPersistence",
+        "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensPersistence\\SchoolCanteensPersistence.csproj",
+        "packagesPath": "C:\\Users\\gowri\\.nuget\\packages\\",
+        "outputPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensPersistence\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\gowri\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensDomain\\SchoolCanteensDomain.csproj": {
+                "projectPath": "C:\\Kumaravel\\Tech\\FlexischoolsTest\\SchoolCanteens\\SchoolCanteensDomain\\SchoolCanteensDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[9.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.415/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
