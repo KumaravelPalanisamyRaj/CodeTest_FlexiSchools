@@ -1,4 +1,3 @@
-
 1. Used Clean Architecture Separation for the Project structure as below
 
 " ..\SchoolCanteens\SchoolCanteensApi" 
@@ -21,7 +20,9 @@
 
 8. Error handling is done with basic exception object being passed with case specific error messages which can also be customized to be user defined exception type
 
-Note: Initially my personal system was not having all the latest tools, technologies and libraries to get started quickly and develop faster. I needed to setup all these software and technologies and libraries to hit the ground running.
+Note: 
+
+Initially my personal system was not having all the latest tools, technologies and libraries to get started quickly and develop faster. I needed to setup all these software and technologies and libraries to hit the ground running.
 
 
 
