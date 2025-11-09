@@ -2,18 +2,15 @@
 using System.Reflection;
 using MediatR;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Options;
-//using SchoolCanteensApplication.Orders;
 using SchoolCanteensInfrastructure;
 using SchoolCanteensPersistence;
-using SchoolCanteensDomain;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add the custom JSON file with reloadOnChange = true
 builder.Configuration.AddJsonFile("appsettings.custom.json", optional: false, reloadOnChange: true);
 
-// Bind strongly typed config and register with DI
+// Configure settings from appsettings.json
 builder.Services.Configure<CanteenSettings>(builder.Configuration.GetSection("CanteenSettings"));
 
 // MediatR
@@ -23,15 +20,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// Simple Idempotency store service
-builder.Services.AddScoped<IIdempotencyService, DbIdempotencyService>();
-
-var app = builder.Build();
-
-// Initialize the static helper for config
-CanteenConfig.Initialize(app.Services.GetRequiredService<IOptionsMonitor<CanteenSettings>>());
-
-if (CanteenConfig.Current.UseInMemoryData)
+if (CanteenConfig.Instance.UseInMemoryData)
 {
     builder.Services.AddDbContext<SchoolCanteensDbContext>(opts =>
     opts.UseInMemoryDatabase("SchoolCanteen"));
@@ -39,8 +28,13 @@ if (CanteenConfig.Current.UseInMemoryData)
 else
 {
     builder.Services.AddDbContext<SchoolCanteensDbContext>(opt =>
-    opt.UseSqlServer(CanteenConfig.Current.DefaultDataConnection));
+    opt.UseSqlServer(CanteenConfig.Instance.DefaultDataConnection));
 }
+// Simple Idempotency store service
+builder.Services.AddScoped<IIdempotencyService, DbIdempotencyService>();
+
+var app = builder.Build();
+
 if (app.Environment.IsDevelopment())
 {
     app.UseDeveloperExceptionPage();

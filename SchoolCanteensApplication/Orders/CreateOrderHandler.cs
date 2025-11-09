@@ -117,7 +117,7 @@ public class CreateOrderHandler : IRequestHandler<CreateOrderCommand, CreateOrde
             //_log.LogInformation("Order created {OrderId} total={Total} parent={ParentId}", order.Id, total, parent.Id);
             return new CreateOrderResult { OrderId = order.Id, Total = total };
         }
-        catch (DbUpdateConcurrencyException ex)
+        catch (DbUpdateConcurrencyException)
         {
             //_log.LogWarning(ex, "Concurrency failure while reserving stock");
             throw new Exception("Could not reserve stock due to concurrent changes. Please retry.");
