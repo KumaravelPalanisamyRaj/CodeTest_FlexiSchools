@@ -14,7 +14,7 @@
 
 
 
-2\. Used .NET8, Entity Framework Core, MediatR, CQRS, SQLServer or InMemoryData logic, IOptionsMonitor for configuration custom file reading, Swagger middleware etc.
+2\. Used .NET8, Entity Framework Core, MediatR, CQRS, SQLServer or InMemoryData logic, configuration custom file reading, Swagger middleware etc.
 
 
 
